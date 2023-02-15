@@ -1,0 +1,77 @@
+:root{
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    background-color: #FF87CF;
+}
+
+.top{
+    position: absolute;
+    width: 1822px;
+    height: 1024px;
+    left: -160px;
+    top: 0px;
+    
+    background: url(background.jpeg);
+}
+
+.mainheading{
+    position: absolute;
+    width: 1395px;
+    height: 306px;
+    left: 0px;
+    top: 242px;
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 300px;
+    line-height: 360px;
+    text-align: right;
+    
+    color: #FF87CF;
+    z-index: 1;
+}
+
+.credits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FF87CF;
+z-index: 1;
+}
+
+.credits :nth-child(1){
+    position: absolute;
+width: 413px;
+height: 383px;
+left: 270px;
+top: 591px;
+}
+
+.credits :nth-child(2){
+    position: absolute;
+width: 410px;
+height: 383px;
+left: 719px;
+
+top: 591px;
+
+}
+
+.credits :nth-child(3){
+    position: absolute;
+width: 414px;
+height: 383px;
+left: 1167px;
+top: 591px;
+
+}
