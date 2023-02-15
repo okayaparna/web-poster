@@ -1,5 +1,7 @@
 :root{
-    font-family: 'Bebas Neue', cursive;
+--pink: #FF87CF;
+font-family: 'Bebas Neue';
+
 }
 
 body{
@@ -20,7 +22,7 @@ body{
     position: absolute;
     width: 1395px;
     height: 306px;
-    left: 0px;
+    left: 170px;
     top: 242px;
     
     font-family: 'Bebas Neue';
@@ -53,7 +55,7 @@ z-index: 1;
     position: absolute;
 width: 413px;
 height: 383px;
-left: 270px;
+left: 390px;
 top: 591px;
 }
 
@@ -61,8 +63,7 @@ top: 591px;
     position: absolute;
 width: 410px;
 height: 383px;
-left: 719px;
-
+left: 859px;
 top: 591px;
 
 }
@@ -71,7 +72,75 @@ top: 591px;
     position: absolute;
 width: 414px;
 height: 383px;
-left: 1167px;
+left: 1320px;
 top: 591px;
 
+}
+
+.photo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    position: absolute;
+    width: 1610px;
+    height: 900px;
+    top: 1040px;
+    left: 20px;
+
+
+}
+
+.photo-grid :nth-child(1){
+    left: 23px;
+top: 1051px;
+background: url(one.png);
+background-size: cover;
+}
+.photo-grid :nth-child(2){
+    left: 722px;
+    top: 1051px;
+background: url(two.png);
+background-size: cover;
+}
+.photo-grid :nth-child(3){
+    left: 722px;
+    top: 1051px;
+background: url(three.png);
+background-size: cover;
+}
+.photo-grid :nth-child(4){
+    left: 722px;
+    top: 1051px;
+background: url(four.png);
+background-size: cover;
+}
+.photo-grid :nth-child(5){
+    left: 722px;
+    top: 1051px;
+background: url(five.png);
+background-size: cover;
+}
+.photo-grid :nth-child(6){
+    left: 722px;
+    top: 1051px;
+background: url(six.png);
+background-size: cover;
+}
+
+.quote{
+    position: absolute;
+width: 1388px;
+height: 99px;
+left: 93px;
+top: 1927px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+
+color: #000000;
 }
